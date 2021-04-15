@@ -1,0 +1,54 @@
+    {
+        "query": [
+        {
+            "code": "SPOL",
+            "selection": {
+            "filter": "item",
+            "values": [
+                "0"
+            ]
+            }
+        },
+        {
+            "code": "STATISTIČNA REGIJA",
+            "selection": {
+            "filter": "item",
+            "values": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12"
+            ]
+            }
+        },
+        {
+            "code": "LETO",
+            "selection": {
+            "filter": "item",
+            "values": [
+                "2020"
+            ]
+            }
+        },
+        {
+            "code": "STAROST",
+            "selection": {
+            "filter": "item",
+            "values": [
+                "0"
+            ]
+            }
+        }
+        ],
+        "response": {
+        "format": "json-stat"
+        }
+    }
